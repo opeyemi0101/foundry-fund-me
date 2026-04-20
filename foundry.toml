@@ -1,0 +1,16 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+ffi = true 
+
+# Remappings must be in the [profile.default] section or on their own
+remappings = [
+    '@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/'
+]
+
+[rpc_endpoints]
+sepolia = "${SEPOLIA_RPC_URL}"
+dotenv = ".env"
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

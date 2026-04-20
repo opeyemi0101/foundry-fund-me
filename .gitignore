@@ -1,0 +1,25 @@
+# Compiler files
+cache/
+out/
+zkout/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+
+# Broadcast
+broadcast/
+
+# ZkSync project
+my-zksync-project/
+
+# OS
+.DS_Store
+Thumbs.db
